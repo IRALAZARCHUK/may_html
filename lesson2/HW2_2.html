@@ -11,23 +11,79 @@
             width: 100px;
             height: 80px;
             background-color: #dadcd7;
-            margin: 10px;
-            display: inline-block;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 500%;
+
+        }
+        .flex{
+            background-color: #fbf9f5;
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .black{
+            color: black;
+        }
+        .red{
+            color: red;
         }
         .name{
             font-size: 30px;
+            font-weight: 40;
         }
     </style>
 </head>
 <body>
 <h1> <span>Player 1:</span></h1>
- <div class="greyBox"></div>
- <div class="greyBox"></div>
- <div class="greyBox"></div>
- <div class="greyBox"></div>
- <div class="greyBox"></div>
- <div class="greyBox"></div>
-<h2 class="name"> <span>Player 2:</span></h2>
+<div class="flex">
+    <div class="greyBox">
+        <p class="black">2&#9827;</p>
+    </div>
+    <div class="greyBox">
+        <p class="red">9&#9829;</p>
+    </div>
+    <div class="greyBox">
+        <p class="red">6&#9829;</p>
+    </div>
+    <div class="greyBox">
+        <p class="red">A♦</p>
+    </div>
+    <div class="greyBox">
+        <p>Q♠</p>
+    </div>
+    <div class="greyBox">
+        <p>J♣</p>
+    </div>
+
+</div>
+<h2 class="name">Player 2:</h2>
+<div class="flex">
+    <div class="greyBox">
+        <p class="red">3♥</p>
+    </div>
+    <div class="greyBox">
+        <p class="black">A♣</p>
+    </div>
+    <div class="greyBox">
+        <p class="red">6&#9829;</p>
+    </div>
+    <div class="greyBox">
+        <p class="red">A♦</p>
+    </div>
+    <div class="greyBox">
+        <p>Q♠</p>
+    </div>
+    <div class="greyBox">
+        <p>J♣</p>
+    </div>
+
+</div>
+
 
 </body>
 </html>
