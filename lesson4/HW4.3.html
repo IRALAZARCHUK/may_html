@@ -8,6 +8,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            scroll-behavior: smooth;
         }
 
         #green {
@@ -38,12 +39,6 @@
             justify-content: center;
             align-items: center;
         }
-
-        h {
-            padding-top: 80px;
-            font-size: 40px;
-        }
-
         p {
             text-align: center;
             padding-left: 20px;
@@ -55,14 +50,15 @@
             font-size: 40px;
         }
 
-        span {
+        .heading {
             font-size: 60px;
+            padding-top: 40px;
         }
     </style>
 </head>
 <body>
 <div id="green" class="flex">
-    <span><p>Section Title</p></span>
+    <p class="heading">Section Title</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid expedita nobis officiis omnis perspiciatis
         quidem quos, suscipit. A facere nesciunt nulla porro quaerat sed sequi sit veritatis! Doloribus eos, sed.
         Accusantium at dicta eligendi eum iste nisi praesentium veniam. Commodi corporis cupiditate, doloribus ipsa iste
@@ -83,7 +79,7 @@
 </div>
 <div id="pink" class="flex">
     <a href="#green">&#8593;</a>
-    <span><p>Section Title</p></span>
+    <p class="heading">Section Title</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores autem commodi eaque, quos reiciendis
         repudiandae saepe totam voluptatum. Accusantium amet corporis impedit ipsum nemo. A delectus dolore dolorem
         doloremque enim excepturi explicabo, id illum laudantium libero, nam nesciunt, nisi optio perferendis quam quia
@@ -102,7 +98,7 @@
 </div>
 <div id="blue" class="flex">
     <a href="#pink">&#8593;</a>
-    <span><p>Section Title</p></span>
+    <p class="heading">Section Title</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores autem commodi eaque, quos reiciendis
         repudiandae saepe totam voluptatum. Accusantium amet corporis impedit ipsum nemo. A delectus dolore dolorem
         doloremque enim excepturi explicabo, id illum laudantium libero, nam nesciunt, nisi optio perferendis quam quia
