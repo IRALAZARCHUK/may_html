@@ -15,50 +15,51 @@
             background-color: #bff6bf;
             height: 100vh;
             text-align: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
         }
 
         #pink {
             background-color: #d1abc6;
             height: 100vh;
             text-align: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
+
         }
 
         #blue {
             background-color: #b5dffa;
             height: 100vh;
             text-align: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
+
         }
 
         .flex {
+            display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        a{
+            font-size: 80px;
+            text-decoration: none;
+            color: black;
+            padding: 60px;
+        }
+        h2{
+            font-size: 60px;
         }
         p {
             text-align: center;
             padding-left: 20px;
             padding-right: 20px;
             padding-top: 40px;
+            font-size: 20px;
         }
 
-        a {
-            font-size: 40px;
-        }
-
-        .heading {
-            font-size: 60px;
-            padding-top: 40px;
-        }
     </style>
 </head>
 <body>
 <div id="green" class="flex">
-    <p class="heading">Section Title</p>
+    <h2>Section Title</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid expedita nobis officiis omnis perspiciatis
         quidem quos, suscipit. A facere nesciunt nulla porro quaerat sed sequi sit veritatis! Doloribus eos, sed.
         Accusantium at dicta eligendi eum iste nisi praesentium veniam. Commodi corporis cupiditate, doloribus ipsa iste
@@ -74,12 +75,13 @@
         nostrum obcaecati, odit quas quibusdam ratione reprehenderit totam ullam. Ad commodi fugiat modi nihil quos
         similique, vero! Alias architecto blanditiis consectetur dignissimos doloribus ea enim ex expedita id illum
         ipsum modi, non perferendis placeat quae quaerat quisquam sint tempore temporibus!</p>
+
     <a href="#pink">&#8595;</a>
 
 </div>
 <div id="pink" class="flex">
     <a href="#green">&#8593;</a>
-    <p class="heading">Section Title</p>
+    <h2>Section Title</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores autem commodi eaque, quos reiciendis
         repudiandae saepe totam voluptatum. Accusantium amet corporis impedit ipsum nemo. A delectus dolore dolorem
         doloremque enim excepturi explicabo, id illum laudantium libero, nam nesciunt, nisi optio perferendis quam quia
@@ -98,7 +100,7 @@
 </div>
 <div id="blue" class="flex">
     <a href="#pink">&#8593;</a>
-    <p class="heading">Section Title</p>
+     <h2>Section Title</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores autem commodi eaque, quos reiciendis
         repudiandae saepe totam voluptatum. Accusantium amet corporis impedit ipsum nemo. A delectus dolore dolorem
         doloremque enim excepturi explicabo, id illum laudantium libero, nam nesciunt, nisi optio perferendis quam quia
