@@ -38,4 +38,20 @@ header div{
 section{
     font-family: "Orbitron", sans-serif;
     height: 90vh;
+    background-image: url(https://images.unsplash.com/photo-1561037404-61cd46aa615b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    margin-top: 10vh;
+}
+section p{
+    font-size: 30px;
+}
+section h1{
+    font-size: 100px;
+    letter-spacing: 30px;
 }
