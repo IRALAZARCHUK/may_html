@@ -88,7 +88,6 @@
     background-size: cover;
 }
 .flex{
-    margin: 157px 35px 161px 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,6 +95,7 @@
     gap: 44.4px;
 }
 .landscape{
+    margin: 157px 35px 161px 35px; ;
     width: 453.6px;
     height: 700px;
     background: rgba(83, 83, 83, 0.40);
