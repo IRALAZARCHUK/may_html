@@ -82,3 +82,66 @@
     line-height: normal;
     margin-top: 110px;
 }
+/*------section third-----*/
+.third{
+    height: 100vh;
+    background-image: url(img/bg-third.png);
+    background-size: cover;
+}
+.flex{
+    margin: 157px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44.4px;
+    text-align: center;
+}
+.landscape{
+    width: 453.6px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+}
+.landscape img{
+    width: 408.6px;
+    height: 214px;
+    margin-top: 25px;
+}
+.landscape h2{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 32px 169px 24px 170px;
+}
+.landscape p{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 62px;
+}
+.landscape h3{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px
+}
+.landscape button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+}
