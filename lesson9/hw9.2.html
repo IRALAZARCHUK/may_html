@@ -18,7 +18,7 @@
             justify-content: center;
         }
         div{
-            height: 150vh;
+            height: 120vh;
             width: 50vw;
             border: 2px solid #d6d5d5;
         }
@@ -52,13 +52,37 @@
             font-size: 20px;
             font-weight: bold;
         }
-        p{
+        .or{
             margin-top: 30px;
             font-size: 20px;
             font-weight: bold;
             color: #6B6666;
             margin-left: 310px;
             margin-bottom: 60px;
+        }
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: #446597;
+        }
+        .facebook{
+            margin-left: 220px;
+            height: 16px;
+        }
+        .pass{
+            margin-left: 260px;
+            margin-top: 40px;
+        }
+        .second{
+            margin-top: 20px;
+            height: 20vh;
+            width: 50vw;
+            border: 2px solid #d6d5d5;
+        }
+        .registr{
+            font-size: 30px;
+            text-align: center;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -72,11 +96,15 @@
         <input class="inline" type="password" name="password" placeholder=" Пароль">
         <input class="button" type="submit" value="Увійти">
     </form>
-    <p>АБО</p>
-
-    <img src="img/fblogo.png" alt="facebooklogo"> <a href="#">Увійти через Facebook</a>
-    <a href="#">Забули пароль</a>
+    <p class="or">АБО</p>
+    <p class="facebook"><img src="img/facelogo.png" alt="facebooklogo"> <a href="hw9.2.html"> Увійти через Facebook</a></p>
+    <p class="pass"><a href="hw9.2.html">Забули пароль</a></p>
 </div>
+</section>
+<section>
+    <div class="second" >
+        <p class="registr">Не маєте облікового запису?<a class="registr" href="hw9.2.html"> Зареєструйтеся</a></p>
+    </div>
 </section>
 </body>
 </html>
