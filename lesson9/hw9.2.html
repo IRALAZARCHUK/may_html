@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 200vh;
+        }
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            height: 150vh;
+            width: 50vw;
+            border: 2px solid #d6d5d5;
+        }
+        .inst{
+            width: 400px;
+            margin-left: 130px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        .inline{
+            display: block;
+            width: 400px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 130px;
+            background-color: #edebeb;
+            font-size: 16px;
+            outline: none;
+            border: 2px solid #d5d5d5;
+        }
+        .button{
+            width: 400px;
+            height: 50px;
+            margin-top: 20px;
+            margin-left: 130px;
+            border-radius: 15px;
+            outline: none;
+            border: none;
+            background-color: #62c0dc;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p{
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #6B6666;
+            margin-left: 310px;
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+<section>
+<div>
+    <img class="inst" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/800px-Instagram_logo.svg.png"
+         alt="inst">
+    <form>
+        <input class="inline" type="text" name="username" placeholder=" Номер телефону, ім'я користувача або електронна адреса">
+        <input class="inline" type="password" name="password" placeholder=" Пароль">
+        <input class="button" type="submit" value="Увійти">
+    </form>
+    <p>АБО</p>
+
+    <img src="img/fblogo.png" alt="facebooklogo"> <a href="#">Увійти через Facebook</a>
+    <a href="#">Забули пароль</a>
+</div>
+</section>
+</body>
+</html>
