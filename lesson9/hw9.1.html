@@ -4,32 +4,71 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: "KoHo", sans-serif;
         }
         body{
             background-color: darkcyan;
         }
-        div{
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 150px;
+        }
+      section div{
             width: 450px;
-            height: 360px;
+            height: 260px;
             background-color: white;
             border-radius: 15px;
-        }
+      }
+      section div header{
+          height: 20%;
+          background-color: #d6dedf;
+          font-size: 20px;
+         text-align: center;
+        align-content: center;
+          border-radius: 15px 15px 0 0;
+      }
+      .inline{
+          display: block;
+          width: 300px;
+          height: 30px;
+          margin-top: 20px;
+          margin-left: 70px;
+      }
+      label{
+          margin-left: 70px;
+          margin-right: 65px;
+      }
+      .button{
+          width: 80px;
+          height: 25px;
+          background-color: #d6dedf;
+          outline: none;
+          border-radius: 10px;
+      }
+
+
+
     </style>
 </head>
 <body>
-<div>
+<section><div>
     <header>Вхід в особистий кабінет</header>
     <form>
-        <input type="text" name="username" placeholder="Логін або email">
-        <input type="password" name="password" placeholder="Пароль">
-        <label>Запам'ятати мене  <input type="checkbox" name="remember"></label>
-        <input type="submit" value="Вхід">
+        <input class="inline" type="text" name="username" placeholder="Логін або email">
+        <input class="inline" type="password" name="password" placeholder="Пароль">
+        <br>
+        <label>Запам'ятати мене <input type="checkbox" name="remember"></label>
+        <input class="button" type="submit" value="Вхід">
     </form>
 </div>
+</section>
 
 </body>
 </html>
