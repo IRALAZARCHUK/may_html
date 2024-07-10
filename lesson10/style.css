@@ -81,8 +81,9 @@ section.table{
     letter-spacing: -1.4px;
     text-transform: uppercase;
     width: 533px;
-    margin-top: 98px;
-    margin-right: 109px;
+    height: 186px;
+    margin: 98px 28px 85px 109px;
+
 
 }
 .lorem{
@@ -94,6 +95,13 @@ section.table{
     letter-spacing: -0.48px;
     width: 521px;
     height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 149px;
+    margin-bottom: 34px;
+
 }
 section.table>div>div>button{
     border: 4px solid #1E1E1E;
@@ -103,7 +111,6 @@ section.table>div>div>button{
     width: 176px;
     height: 60px;
     flex-shrink: 0;
-    margin-top: 34px;
     color: #1E1E1E;
     text-align: center;
     font-family: "Bowlby One", sans-serif;
@@ -111,6 +118,12 @@ section.table>div>div>button{
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
+    margin-top: 34px;
+    margin-right: 494px;
+    margin-left: 142px;
+    margin-bottom: 100px;
+
+
 
 }
 main>div{
