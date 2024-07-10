@@ -5,14 +5,13 @@
     box-sizing: border-box;
 }
 body{
-    background: #FFF;
+    background: #F5F5F7;
 }
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
-
+    background: #FFF;
 }
 ul {
     display: flex;
@@ -34,6 +33,7 @@ header{
     width: 1372px;
     height: 108px;
     padding: 3px 365px 30px 365px;
+    animation: left 0.4s linear 1;
 }
 header div{
     display: flex;
@@ -56,6 +56,7 @@ main img{
     height: 432px;
     flex-shrink: 0;
     margin: 78px 340px 68px 338px;
+    animation: down 2s linear 1;
 }
 h2{
     width: 1039px;
@@ -86,4 +87,27 @@ p{
     margin-right: 232px;
     margin-bottom: 94px;
     margin-left: 232px;
+}
+
+@keyframes left {
+    0% {
+        transform: translate(200px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+@keyframes down {
+    0%{
+        transform: scale(2.5);
+    }
+    /*50%{*/
+    /*    transform: scale(2);*/
+    /*}*/
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes up {
+
 }
