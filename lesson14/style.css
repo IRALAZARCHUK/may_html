@@ -152,5 +152,44 @@ div.watches>div>p{
     line-height: 32px; /* 133.333% */
 
 }
+div.hand{
+    display:flex;
+    margin-left: 164px;
+}
 
-
+div.hand>div>h4{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-top: 132px;
+}
+div.hand>div>p{
+    margin-top: 181px;
+    color: #777;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+div.hand>div>h5{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+    margin-top: 16px;
+    width: 350px;
+    margin-right:55px;
+}
+div.hand>div>{
+    width: 628px;
+    height: 626px;
+}
+div.hand>div>img{
+    margin-top: 220px;
+}
