@@ -109,6 +109,14 @@ div.main>div>button{
     margin-top: 93px;
     border: none;
 }
+h3{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
 
 
 
