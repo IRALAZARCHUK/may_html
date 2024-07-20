@@ -1,6 +1,18 @@
 @media screen and (max-width:480px){
-
-
+div.main{
+    height: 880px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+}
+div img{
+    width: 128px;
+    height: 128px;
+    margin-bottom: 16px;
+}
+    div p{
+        width: 343px;
+    }
 
 
 
