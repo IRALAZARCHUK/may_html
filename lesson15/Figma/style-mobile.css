@@ -1,0 +1,45 @@
+@media screen and (max-width: 480px){
+div.main{
+    width: 343px;
+    height: 583px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    div.first{
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    div.first>div>button:first-of-type{
+        width: 143px;
+        height: 36px;
+        font-size: 14px;
+    }
+    div.first>div>a{
+        width: 103px;
+        height: 20px;
+        font-size: 14px;
+    }
+    div.first h2 {
+        height: 76px;
+        font-size: 32px;
+    }
+    div.first>ul{
+        height: 50px;
+        font-size: 18px;
+    }
+    div.second img{
+        width: 343px;
+        height: 193px;
+    }
+
+
+
+
+}
+
+
+
