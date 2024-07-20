@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+div.main{
+    width:1376px;
+    height:441px;
+    background:  #F3F5F6;
+    margin: 64px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.first{
+    width: 578px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+div.first>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+div.first>div>button:first-of-type{
+    width: 174px;
+    height: 41px;
+    border: none;
+    border-radius: 8px;
+    background:  #FF9500;
+    color:  #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+div.first>div>a{
+    width: 132px;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+div.first h2{
+    height: 154px;
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+}
+div.first>ul{
+height: 34px;
+    color: #3C3C43;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */;
+    margin-left: 25px;
+}
+div.first>button:last-of-type{
+       width: 132px;
+       height: 56px;
+       border-radius: 8px;
+       background: #6F1DF4;
+    color:#FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+   margin-top: 90px;
+}
+div.second{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+
+}
+div.second img{
+    width: 578px;
+}
