@@ -1,0 +1,11 @@
+@media screen and (min-width: 480px)
+and (max-width: 900px) {
+    div.second > div {
+        height: 45vh;
+        width: 24%;
+    }
+
+    div.second {
+        gap: 5px;
+    }
+}
