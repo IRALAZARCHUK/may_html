@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+div.container{
+    margin: 0 auto;
+}
+header{
+    width: 1400px;
+    height: 113px;
+    background: #24204A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.container>header>div>a{
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+    margin: 48px 580px 41px 115px;
+}
+
+header>nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 64px;
+    list-style-type: none;
+    margin-right: 115px;
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+section>div.flex{
+    width: 1400px;
+    height: 651px;
+    background: #24204A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>div.flex>div>button:first-of-type{
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    color:  #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+    border: none;
+    margin-top: 85px;
+    margin-left: 115px;
+    margin-bottom: 32px;
+}
+section>div.flex>div>h2{
+    width: 570px;
+    height: 85px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-left: 115px;
+    margin-bottom: 32px;
+}
+section>div.flex>div>p{
+    width: 570px;
+    height: 85px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+    margin-left: 115px;
+}
+section>div.flex>div>button:last-of-type{
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    margin-left: 115px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+}
+section>div.flex>div:last-of-type{
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    margin: 67px 132px 101px 208px;
+}
+section>div.flex>div:last-of-type img{
+    width: 318px;
+    height: 318px;
+    margin: 48px 28px 45px 29px;
+}
+div.background{
+    width: 1400px;
+    height: 764px;
+    background: #071341;
+}
+div.background>nav{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding: 50px 115px 85px 115px;
+}
+div.background>nav>div.svg{
+    width: 57px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF6853;
+    display: flex;
+
+}
+div.background>nav>div>svg{
+    width: 32.082px;
+    height: 32px;
+    margin: 12px;
+}
+div.background>nav>div.text h3{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+div.background>nav>div.text p{
+    color: #8E88C1;
+    width: 102px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
