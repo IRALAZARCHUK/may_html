@@ -217,8 +217,28 @@ section>div.box>div>p{
     line-height: 20px; /* 125% */
     letter-spacing: 0.8px;
 }
+section>iframe{
+    width: 1400px;
+    height: 664px;
+}
+footer{
+    width: 1400px;
+    height: 94px;
+    background: #071341;
 
 
+}
+footer h5{
+    width: 96px;
+    height: 25px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+    padding-top: 35px;
+    margin-left: 652px;
+}
 
 
 
