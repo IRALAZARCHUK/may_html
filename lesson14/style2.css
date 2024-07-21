@@ -121,16 +121,21 @@ section>div.flex>div:last-of-type img{
     height: 318px;
     margin: 48px 28px 45px 29px;
 }
+/*-----------page2--------------*/
 div.background{
     width: 1400px;
     height: 764px;
     background: #071341;
 }
 div.background>nav{
+    width: 1400px;
     display: flex;
     gap: 18px;
     align-items: center;
-    padding: 50px 115px 85px 115px;
+    padding-top: 50px;
+   margin-left: 115px;
+    margin-right: 115px;
+
 }
 div.background>nav>div.svg{
     width: 57px;
@@ -160,8 +165,58 @@ div.background>nav>div.text p{
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.8px;
+    margin-right: 52px;
 }
-
+div.background>h2{
+    width: 1074px;
+    height: 126px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    margin: 85px 163px 15px 163px;
+}
+div.background>p{
+    color:  #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+    margin-right: 428px;
+    margin-left: 428px;
+    margin-bottom: 58px;
+    width: 545px;
+    height: 24px;
+}
+section>div.box{
+    display: flex;
+    gap: 32px;
+    margin-left: 114px;
+}
+section>div.box>div{
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid  #8E88C1;
+   align-content: center;
+    text-align: center;
+}
+section>div.box>div>svg{
+    margin-bottom: 26px;
+}
+section>div.box>div>p{
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+}
 
 
 
