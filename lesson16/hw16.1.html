@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .grid{
+            display: grid;
+            height: 100vh;
+            grid-template-rows: 1fr 3fr 1fr;
+            grid-template-areas:
+        "header"
+        "main"
+        "footer"
+        ;
+        }
+
+        header{
+            grid-area: header;
+            background-color: #c9ccc3;
+        }
+        main{
+            grid-area: main;
+            background-color: #a1a0a0;
+        }
+        footer{
+            grid-area: footer;
+            background-color: #c9ccc3;
+        }
+    </style>
+</head>
+<body>
+<div class="grid">
+    <header></header>
+    <main></main>
+    <footer></footer>
+</div>
+</body>
+</html>
