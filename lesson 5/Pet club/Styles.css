@@ -88,3 +88,6 @@ div{
     flex-direction: column;
     gap: 20px;
 }
+div.container>footer.ру-5>div.row{
+    justify-content: space-between;
+}
