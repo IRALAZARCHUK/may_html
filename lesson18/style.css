@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 1280px;
+    height: 3796px;
+    margin: 0 auto;
+}
+main>div.background{
+    height: 908px;
+    width:100%;
+    background:  radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+
+main>div.background>header>div>h2{
+    width: 199px;
+    margin-top:60px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    height: 35px;
+    color:  #F1CDB3;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.92px;
+}
+main>div.background>header>div>p{
+    color:  #FFF;
+    margin-left: 44px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+header{
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main>div.background>header>nav>ul{
+    margin-top: 76px;
+    margin-right: -40px;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 35px;
+}
+main>div.background>header>nav>ul>li>a{
+    color: #CDCDCD;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+    text-decoration: none;
+}
+main>div.background>header>nav>ul>li.border{
+    display: flex;
+    flex-direction: column-reverse;
+    background: #F1CDB3;
+    height: 3px;
+}
