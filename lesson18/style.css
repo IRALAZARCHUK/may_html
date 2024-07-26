@@ -121,3 +121,42 @@ section>div.dog>div>img{
     height: 728px;
     margin-top: 77px;
 }
+/*------second page------*/
+section.second{
+    height: 588px;
+    margin: 0 auto;
+}
+section.second>div.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+section.second>div.about>div>img{
+    width: 300px;
+    height: 408px;
+    margin-top: 80px;
+    margin-left: 175px;
+}
+section.second>div.about>div>h3{
+    color:  #545454;
+    margin-top: 80px;
+    width: 370px;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+section.second>div.about>div>p{
+    margin-top: 25px;
+    margin-right: 175px;
+    width: 430px;
+    color: #4C4C4C;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+}
