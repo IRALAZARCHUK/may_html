@@ -236,4 +236,54 @@ section.third>button{
     font-weight: 400;
     line-height: 130%; /* 22.1px */
     letter-spacing: 1.02px;
+    border: none;
+}
+section.fourth{
+    margin: 0 auto;
+    height: 611px;
+    width: 1280px;
+}
+section.fourth h2{
+    padding-top: 80px;
+    margin-bottom: 60px;
+    color: #545454;
+    text-align: center;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+section.fourth>div.card{
+    margin-left: 127px;
+    margin-right: 127px;
+    width: 1060px;
+    height: 281px;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+section.fourth>div.card>div>svg{
+    width: 60px;
+    height: 60px;
+}
+section.fourth>div.card>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+section.fourth>div.card>div>p{
+    color:  #545454;
+    text-align: center;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
 }
