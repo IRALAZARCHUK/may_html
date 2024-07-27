@@ -239,9 +239,10 @@ section.third>button{
     border: none;
 }
 section.fourth{
-    margin: 0 auto;
+
     height: 611px;
     width: 1280px;
+    margin-bottom: 100px;
 }
 section.fourth h2{
     padding-top: 80px;
@@ -256,9 +257,9 @@ section.fourth h2{
     letter-spacing: 2.1px;
 }
 section.fourth>div.card{
-    margin-left: 127px;
-    margin-right: 127px;
-    width: 1060px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1100px;
     height: 281px;
    display: flex;
     flex-wrap: wrap;
@@ -286,4 +287,87 @@ section.fourth>div.card>div>p{
     font-weight: 400;
     line-height: 115%; /* 23px */
     letter-spacing: 1.2px;
+}
+section.fifth{
+    margin: 0 auto;
+    background: #F6F6F6;
+    height: 462px;
+    padding-top: 80px;
+}
+section.fifth>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 182px;
+    margin-left: 182px;
+    gap: 30px;
+    width: 915px;
+    height: 282px;
+}
+section.fifth>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+section.fifth>div>div>img{
+    width: 505px;
+    height: 261px;
+}
+section.fifth>div>div>h3{
+    /*width: 300px;*/
+    /*height: 90px;*/
+    margin-right: 42px;
+    color:  #545454;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+section.fifth>div>div>p:first-of-type{
+    /*width: 307px;*/
+    /*margin-right: -10px;*/
+    color:  #545454;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
+}
+section.fifth>div>div>form{
+    border-radius: 9px;
+    background: #F1CDB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 349px;
+    height: 43px;
+    gap: 15px;
+}
+section.fifth>div>div>form>svg{
+    width: 30px;
+    height: 23px;
+    fill:  #292929;
+}
+section.fifth>div>div>form>p{
+    color:  #545454;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+section.fifth>div>div>p:last-of-type{
+    width: 380px;
+    color:  #B2B2B2;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
 }
