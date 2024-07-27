@@ -1,0 +1,122 @@
+@media screen and (max-width: 480px) {
+   main>div.background{
+       height: 823px;
+       width: 320px;
+       display: flex;
+       flex-direction: column;
+   }
+    main>div.background>header>div>h2{
+        margin-top: 30px;
+        height: 35px;
+    }
+    main>div.background>header>nav>ul{
+        display: none;
+    }
+ section>div.dog{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+ }
+    section>div.dog>div>h3{
+        width: 300px;
+        height: 64px ;
+        padding-left: 5px;
+        padding-right: 20px;
+        margin-top: 60px ;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    section>div.dog>div>p{
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+    section>div.dog>div>button{
+        margin-left: 85px;
+        margin-top: 20px;
+    }
+    section>div.dog>div>img{
+        width: 260px;
+        height: 271px;
+        margin-top: 98px;
+        margin-left: 50px;
+    }
+
+    section.second{
+        display: flex;
+        height: 974px;
+        flex-direction: column;
+    }
+div.about{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 300px;
+}
+    section.second>div.about>div>h3{
+        font-size: 25px;
+        margin-top: 40px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        width: 300px;
+        height: 64px;
+    }
+
+    section.second>div.about>div>p{
+        width: 270px;
+        text-align: justify;
+    }
+    section.second>div.about>div>img{
+        width: 260px;
+        height: 354px;
+        margin-top: -82px;
+        margin-left: -160px;
+
+    }
+    section.third{
+        height: 974px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    div.box>div>img{
+        width: 270px;
+        height: 435px;
+    }
+    div.box{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 30px;
+        margin-top: -42px;
+
+    }
+
+    section.third>h2{
+        padding-top: 40px;
+        padding-left: 15px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    section.third>div.box>div:nth-child(2){
+        display: none;
+    }
+    section.third>div.box>div:nth-child(3){
+     display: none;
+    }
+    section.third>button{
+        margin-left: 30px;
+    }
+
+
+
+
+
+}
