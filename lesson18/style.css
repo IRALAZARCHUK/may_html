@@ -239,12 +239,11 @@ section.third>button{
     border: none;
 }
 section.fourth{
-
     height: 611px;
     width: 1280px;
     margin-bottom: 100px;
 }
-section.fourth h2{
+section.fourth>h2{
     padding-top: 80px;
     margin-bottom: 60px;
     color: #545454;
@@ -328,8 +327,6 @@ section.fifth>div>div>h3{
     letter-spacing: 2.1px;
 }
 section.fifth>div>div>p:first-of-type{
-    /*width: 307px;*/
-    /*margin-right: -10px;*/
     color:  #545454;
     font-family: "Noto Serif Georgian", serif;
     font-size: 15px;
@@ -370,4 +367,72 @@ section.fifth>div>div>p:last-of-type{
     font-style: italic;
     font-weight: 400;
     line-height: 18px; /* 150% */
+}
+footer{
+    width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+    background: radial-gradient(549.89% 73.65% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+footer>div.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+footer>div.last>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+footer>div.last>div>div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer>div.last>div>h3{
+    color: #FFF;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+footer>div.last>div>div.svg>svg{
+    width: 40px;
+    height: 32px;
+}
+footer>div.last>div>div>p{
+    color: #F1CDB3;
+    font-family: "Noto Serif Georgian", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+footer>div.last>div>div>svg.svg{
+    width: 40px;
+    height: 32px;
+}
+footer>div.last>div>div>svg.svg-second{
+    width: 22px;
+    height: 32px;
+}
+footer>div.last>div>img{
+    width: 300px;
+    height: 310px;
+}
+div.visit{
+    margin-top: 16px;
+}
+svg.big{
+    width: 42px;
 }
