@@ -221,7 +221,18 @@ footer{
         padding-bottom: 6px;
     }
 
+    .text{
+        height: 46px;
+        width: 318px;
+        margin-left: 5px;
+    }
+.london{
+    margin-left: 5px;
+}
 
+.center{
+    margin-left: 20px;
+}
 
 
 
